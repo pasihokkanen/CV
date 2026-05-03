@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0c0f;
+  --bg-secondary: #111114;
+  --bg-card: #161619;
+  --text-primary: #f0f0f2;
+  --text-secondary: #9898a0;
+  --text-muted: #5a5a64;
+  --accent: #6366f1;
+  --accent-hover: #818cf8;
+  --border: #222228;
+  --border-light: #2e2e36;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

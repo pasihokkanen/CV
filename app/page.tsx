@@ -869,7 +869,7 @@ function Contact() {
           </motion.div>
           </motion.div>
           <img
-            src="/portrait.jpg"
+            src="/CV/portrait.jpg"
             alt="Portrait"
             style={{
               width: "200px",
@@ -917,7 +917,7 @@ export default function Home() {
       <Nav />
       <main>
         <img
-          src="/banner.jpg"
+          src="/CV/banner.jpg"
           alt="Banner"
           style={{
             width: "100%",

@@ -281,6 +281,8 @@ function Nav() {
         WebkitBackdropFilter: "blur(12px)",
         background: "rgba(12, 12, 15, 0.85)",
         borderBottom: "1px solid var(--border)",
+        paddingLeft: "env(safe-area-inset-left)",
+        paddingRight: "env(safe-area-inset-right)",
       }}
     >
       <nav

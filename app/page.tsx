@@ -437,6 +437,7 @@ function Hero() {
             label="LinkedIn"
             external
           />
+          <LinkButton href="https://github.com/pasihokkanen" label="GitHub" external />
           <LinkButton href="mailto:hokkanen.pasi@gmail.com" label="hokkanen.pasi@gmail.com" />
         </motion.div>
       </motion.div>
@@ -583,6 +584,7 @@ const skillGroups = [
       { name: "Microsoft Office" },
       { name: "Linux" },
       { name: "Hermes AI Agent" },
+      { name: "Win32" },
     ],
   },
   {

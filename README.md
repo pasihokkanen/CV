@@ -1,6 +1,6 @@
 # Pasi Hokkanen — Personal Portfolio
 
-[![Deploy to GitHub Pages](https://github.com/pasihokkanen/pasi-hokkanen/actions/workflows/deploy.yml/badge.svg)](https://github.com/pasihokkanen/pasi-hokkanen/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/pasihokkanen/CV/actions/workflows/deploy.yml/badge.svg)](https://github.com/pasihokkanen/CV/actions/workflows/deploy.yml)
 
 My personal CV / portfolio website, hosted on **GitHub Pages**.
 
